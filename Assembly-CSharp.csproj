@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{4A378A18-5BE1-712B-45F5-844B5EFDED36}</ProjectGuid>
+    <ProjectGuid>{AD3E6D38-71B4-E1E4-272D-B46C7CED4493}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -52,8 +52,11 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\scripts\buttonEvent.cs" />
+     <Compile Include="Assets\scripts\destroyScript.cs" />
+     <Compile Include="Assets\scripts\mainMenuScript.cs" />
      <Compile Include="Assets\scripts\moveLeft.cs" />
      <Compile Include="Assets\scripts\prefabs_spawner.cs" />
+     <Compile Include="Assets\scripts\Retryscript.cs" />
      <Compile Include="Assets\scripts\sapiControl.cs" />
      <Compile Include="Assets\scripts\scoreManager.cs" />
      <Compile Include="Assets\scripts\simpannama.cs" />

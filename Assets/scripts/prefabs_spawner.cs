@@ -1,7 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class prefabs_spawner : MonoBehaviour {
 
@@ -9,7 +8,6 @@ public class prefabs_spawner : MonoBehaviour {
 	public Transform prefabToSpawn;
 	public float spawnRate = 1;
 	public float randomDelay = 1;
-	public Text nama;
 
 	// Use this for initialization
 	void Start () {
@@ -23,8 +21,5 @@ public class prefabs_spawner : MonoBehaviour {
 			Instantiate(prefabToSpawn, transform.position, Quaternion.identity);
 			nextSpawn = Time.time + spawnRate + Random.Range(0, randomDelay);
 		}
-
-		string loadNama = PlayerPrefs.GetString("Name");
-		nama.text = "" + loadNama;
 	}
 }
